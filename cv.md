@@ -22,3 +22,46 @@ function solution(str){
 }
 solution("world");
 ```
+## Working experience
+**Associate Content Strategist**\
+***EPAM***\
+*July 2021 - Present*
+
+
+**HTML Developer**\
+***Skyeng*** - Moscow, Russia\
+*November 2020 - July 2021*
+- Layout of interactive tasks in CMS Vimbox for Skysmart project
+- Making edits to the layout, checking the validation, code adaptability 
+- Working with images in Adobe Photoshop
+- Workflow stack: CMS Vimbox, Slack, Atlassian Jira and Confluence, Notion, Usedesk.
+
+**IT-Academy**\
+***Website development with HTML, CSS and Javascript***\
+*March 2021 - June 2021*\
+[Examples of my code](https://codepen.io/Eugenia_Tarasenko/pens/public)\
+[Final project](https://github.com/JennyTara/Skyway)
+
+## Education
+*2011-2016*\
+**Belarusian State Economic University**\
+Economics and management of the tourism industry\
+\
+*July 2020*\
+**GP Solutions - Training Center for IT managers and analysts PMBA**\
+Основы IT: Базовые навыки аналитика и менеджера\
+[Certificate](https://drive.google.com/drive/folders/13ZXhLFzzb-nk0WR9pnYuj2PoBK_XUgU-)\
+\
+*July 2020*\
+**EF Standard English Test**\
+EF SET Certificate\
+[Certificate](https://www.efset.org/cert/HrTTH9)\
+\
+*June 2021*\
+**IT-Academy**\
+Website development with HTML, CSS and Javascript\
+[Certificate](https://drive.google.com/file/d/1upo7toTEK9CiDW3ID_xrCXgGbg0Cq3B2/view?usp=sharing)
+
+## Languages
+*English B1+*\
+*French A1*
