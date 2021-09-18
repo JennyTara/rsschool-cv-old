@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <title>CV</title>
 </head>
 <body>
@@ -17,8 +20,9 @@
         <h1>Eugenia Tarasenko</h1>
     </header>
     <aside class="aside">
-        <img class="cv-foto" src="images/cv-foto.jpg" alt="CV Foto" width="200">
-        <section>
+        <img class="cv-photo" src="images/cv-foto.jpg" alt="CV Foto" width="200">
+        <div class="aside-sections">
+            <section>
             <h3>Contacts</h3>
             <ul class="no-list">
                 <li>
@@ -29,13 +33,13 @@
                 </li>
                 <li>
                     <a class="link-aside" href="https://www.linkedin.com/in/eugenia-tarasenko/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                </li>
+                </li> 
                 <li>
                     <span><i class="fas fa-map-marker-alt"></i> Minsk, Belarus</span>
                 </li>
             </ul>
-        </section>
-        <section>
+            </section>
+            <section>
             <h3>Skills</h3>
             <ul>
                 <li>HTML5</li>
@@ -43,15 +47,17 @@
                 <li>Basic JS</li>
                 <li>BEM</li>
                 <li>Adobe Photoshop</li>
+                <li>Wordpress</li>
             </ul>
-        </section>
-        <section>
+            </section>
+            <section>
             <h3>Languages</h3>
             <div class="paragraff-aside">
                 <p>English B1+</p>
                 <p>French A1</p>
             </div>
-        </section>
+            </section>
+        </div>
     </aside>
     <main class="main">
         <section>
@@ -60,7 +66,7 @@
                  <p>My first acquaintance with html started with small tasks concerning site administration while working in tourism sphere.</p> 
                  <p>Little by little at my free time I began to explore the world of Frontend development.</p> 
                  <p>After a while I passed interview, carried out a test case and finally got a html-developer position.</p>
-                 <p>Recently I have successfully finished the course "Website development using HTML, CSS and JS" at IT-Academy. And now I take part in The Rolling       Scopes School course "JavaScript/Front-end. Stage 0".</p>
+                 <p>Recently I have successfully finished the course "Website development using HTML, CSS and JS" at IT-Academy. </p>
                  <p>My strong qualities: responsibility, high efficiency, attentiveness, easy learning, ability to work with a large amount of information, open to new       knowledge and new experience.</p>
             </div>
         </section>
@@ -82,6 +88,11 @@
                 <div>
                     <p class="position">Associate Content Strategist</p>
                     <p class="company">EPAM Systems &mdash; Minsk, Belarus</p>
+                    <ul>
+                        <li>Investigation of project documentation</li>
+                        <li>Editing and optimization of images</li>
+                        <li>Uploading content in Wordpress</li>
+                    </ul>
                 </div>
             </div>
             <div class="paragraff">
@@ -103,7 +114,14 @@
                     <p class="position">Website development with HTML, CSS and Javascript</p>
                     <p class="company">IT-Academy</p>
                     <p class="link"><a href="https://codepen.io/Eugenia_Tarasenko/pens/public" target="_blank">Examples of my code</a></p>
-                    <p class="link"><a href="https://github.com/JennyTara/Skyway" target="_blank">Final project</a></p>
+                    <p class="link"><a href="https://github.com/JennyTara/Skyway" target="_blank">Final project &mdash; website Skyway Airlines.</a></p>
+                    <figure>
+                        <a href="https://jennytara.github.io/Skyway/" target="_blank">
+                            <img class="project_photo" src="images/skyway_airlines_photo.png" alt="skyway_airlines_website">
+                        </a>
+                    </figure>
+                    <p>This project is the result of passed course. The main aim was to show on practise all the knowledge that was gained.</p>
+                    <p>Stack: HTML5, CSS3, JS, Jquery, <a href="http://scrollmagic.io/" target="_blank">ScrollMagic</a>.</p>
                 </div>
             </div>
         </section>
