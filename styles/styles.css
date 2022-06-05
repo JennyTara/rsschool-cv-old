@@ -1,0 +1,172 @@
+* {
+	font-family: 'STIX Two Math', serif;
+	margin: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+.cv-position {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 950px;
+	border: solid 1px #494D4D;
+}
+.header {
+	grid-column:2/3;
+	grid-row: 1/2;
+	color: #494D4D;
+}
+.aside {
+	grid-column:1/2;
+	grid-row: 1/3;
+	padding: 15px;
+	background-color: #116C6E;
+	color: #ffffff;
+}
+.main {
+	grid-column:2/3;
+	grid-row: 2/3;
+	color: #494D4D;
+}
+.footer {
+	grid-column:1/3;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #494D4D;
+	
+	
+}
+h1 {
+	text-align: center;
+	font-size: 35px;
+}
+h2 {
+	position: relative;
+	margin: 10px 20px;
+	font-size: 25px;
+}
+h2::after {
+	content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    z-index: 2;
+    background-color: #454545;
+}
+h3 {
+	margin: 10px 10px;
+	font-size: 20px;
+}
+p {
+	font-size: 16px;
+}
+.cv-photo {
+	display: block;
+	margin: 10px auto;
+	border-radius: 50%;
+	border: solid 5px #ffffff;
+}
+.link-aside {
+	color: #ffffff;
+}
+.link-aside:hover {
+	color:#FFFF00;
+	transition: ease-in .4s;
+}
+.no-list {
+	padding-left: 25px;
+	list-style-type: none;
+	
+}
+.no-list li {
+	margin-bottom: 5px;
+}
+.paragraff-aside p,
+.paragraff p{
+	padding: 0 15px 0 25px;
+	margin: 0;
+}
+.paragraff-profile p{
+	padding: 0 15px 0 25px;
+	margin: 0;
+	text-indent: 25px;
+}
+.paragraff {
+	margin: 10px 0;
+	display: grid;
+	grid-template-columns: 170px 1fr;
+}
+.position {
+	font-weight: bold;
+	font-style: italic;
+}
+.company {
+	font-weight: bold;
+	font-size: 14px;
+}
+.institution {
+	font-weight: bold;
+}
+.time-period {
+	font-style: italic;
+
+}
+.link a{
+	color: #000000;
+}
+.link a:hover {
+	text-shadow: #FFFF00 1px 0 5px;
+}
+.project_photo {
+	width:70%;
+	margin: 25px;
+}
+@media (max-width: 1024px) {
+	.cv-position {
+		grid-template-columns: minmax(320px, 1fr);
+	}
+	.header {
+		grid-column: 1/2;
+		grid-row: 1/2;
+	}
+	.aside {
+		grid-row: 2/3;
+		grid-column: 1/2;
+		
+	}
+	.aside-sections {
+		display: flex;
+		justify-content: space-evenly;
+		flex-direction: column;
+	}
+	.aside-sections h3{
+		text-align: center;
+	}
+	
+	.main {
+		grid-column: 1/2;
+		grid-row: 3/4;
+	}
+	.cv-position {
+		border: none;
+	}
+}
+@media (max-width: 768px) {
+	.footer {
+		flex-direction: column;
+		gap: 10px;
+	}
+	.paragraff {
+		grid-template-columns: 140px 1fr;
+	}
+	h1{
+		font-size: 25px;
+	}
+	
+}
