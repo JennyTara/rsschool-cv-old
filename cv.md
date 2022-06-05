@@ -1,5 +1,5 @@
 # Yauheniya Tarasenka
-*+375 29 147 57 90*\
+*+375291475790*\
 <eugeniatarasenko13@gmail.com>\
 [LinkedIn](https://www.linkedin.com/in/eugenia-tarasenko/)\
 *Minsk, Belarus*
